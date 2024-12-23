@@ -1,0 +1,201 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rs",
+					"strict" : false
+				},
+				{
+					"name" : "e",
+					"strict" : false
+				},
+				{
+					"name" : "init_end",
+					"strict" : false
+				},
+				{
+					"name" : "life0",
+					"strict" : false
+				},
+				{
+					"name" : "life1",
+					"strict" : false
+				},
+				{
+					"name" : "life2",
+					"strict" : false
+				},
+				{
+					"name" : "die",
+					"strict" : false
+				},
+				{
+					"name" : "piezo",
+					"strict" : false
+				},
+				{
+					"name" : "motorA",
+					"strict" : false
+				},
+				{
+					"name" : "motorB",
+					"strict" : false
+				},
+				{
+					"name" : "motorC",
+					"strict" : false
+				},
+				{
+					"name" : "motorD",
+					"strict" : false
+				},
+				{
+					"name" : "com[7]",
+					"strict" : false
+				},
+				{
+					"name" : "com[6]",
+					"strict" : false
+				},
+				{
+					"name" : "com[5]",
+					"strict" : false
+				},
+				{
+					"name" : "com[4]",
+					"strict" : false
+				},
+				{
+					"name" : "com[3]",
+					"strict" : false
+				},
+				{
+					"name" : "com[2]",
+					"strict" : false
+				},
+				{
+					"name" : "com[1]",
+					"strict" : false
+				},
+				{
+					"name" : "com[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_G[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_G[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_G[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_G[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "postition_rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "startBTN",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "topbottom",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

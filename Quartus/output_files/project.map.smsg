@@ -1,0 +1,10 @@
+Warning (10268): Verilog HDL information at lcd_write_object_char.v(64): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/lcd_write_object_char.v Line: 64
+Warning (10268): Verilog HDL information at start_LCD.v(61): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/start_LCD.v Line: 61
+Warning (10268): Verilog HDL information at motor.v(20): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/motor.v Line: 20
+Warning (10268): Verilog HDL information at hit_COLORLED.v(21): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/hit_COLORLED.v Line: 21
+Warning (10268): Verilog HDL information at gameover.v(100): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/gameover.v Line: 100
+Warning (10268): Verilog HDL information at super_mario_music.v(342): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/super_mario_music.v Line: 342
+Warning (10268): Verilog HDL information at life_count_LED.v(13): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/life_count_LED.v Line: 13
+Warning (10268): Verilog HDL information at clk_speed.v(23): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/clk_speed.v Line: 23
+Warning (10268): Verilog HDL information at array8_segment.v(44): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/array8_segment.v Line: 44
+Warning (10268): Verilog HDL information at lcd_custom_object_init.v(33): always construct contains both blocking and non-blocking assignments File: C:/Users/tmdal/Documents/Quartus/project/lcd_custom_object_init.v Line: 33

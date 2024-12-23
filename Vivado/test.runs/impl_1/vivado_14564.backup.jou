@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 22 20:53:05 2024
+# Process ID: 14564
+# Current directory: C:/Users/tmdal/Documents/vivado/test/test.runs/impl_1
+# Command line: vivado.exe -log main_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main_test.tcl -notrace
+# Log file: C:/Users/tmdal/Documents/vivado/test/test.runs/impl_1/main_test.vdi
+# Journal file: C:/Users/tmdal/Documents/vivado/test/test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source main_test.tcl -notrace

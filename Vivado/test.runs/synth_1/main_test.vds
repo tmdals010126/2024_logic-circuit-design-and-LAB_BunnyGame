@@ -1,0 +1,422 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Dec 22 20:51:47 2024
+# Process ID: 7004
+# Current directory: C:/Users/tmdal/Documents/vivado/test/test.runs/synth_1
+# Command line: vivado.exe -log main_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_test.tcl
+# Log file: C:/Users/tmdal/Documents/vivado/test/test.runs/synth_1/main_test.vds
+# Journal file: C:/Users/tmdal/Documents/vivado/test/test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main_test.tcl -notrace
+Command: synth_design -top main_test -part xc7s75fgga484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s75'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s75'
+INFO: [Device 21-403] Loading part xc7s75fgga484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11784
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1027.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main_test' [C:/Users/tmdal/Documents/vivado/test/test.v:20]
+INFO: [Synth 8-6157] synthesizing module 'mx_2x1' [C:/Users/tmdal/Documents/vivado/test/mx_2x1.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'mx_2x1' (1#1) [C:/Users/tmdal/Documents/vivado/test/mx_2x1.v:20]
+INFO: [Synth 8-6157] synthesizing module 'trigger' [C:/Users/tmdal/Documents/vivado/test/trigger.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'trigger' (2#1) [C:/Users/tmdal/Documents/vivado/test/trigger.v:20]
+INFO: [Synth 8-6157] synthesizing module 'life_count_LED' [C:/Users/tmdal/Documents/vivado/test/life_count_LED.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tmdal/Documents/vivado/test/life_count_LED.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'life_count_LED' (3#1) [C:/Users/tmdal/Documents/vivado/test/life_count_LED.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hit_COLORLED' [C:/Users/tmdal/Documents/vivado/test/hit_COLORLED.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hit_COLORLED' (4#1) [C:/Users/tmdal/Documents/vivado/test/hit_COLORLED.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mx_8bit_2x1' [C:/Users/tmdal/Documents/vivado/test/mx_8bit_2x1.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'mx_8bit_2x1' (5#1) [C:/Users/tmdal/Documents/vivado/test/mx_8bit_2x1.v:20]
+INFO: [Synth 8-6157] synthesizing module 'PNU_CLK_DIV' [C:/Users/tmdal/Documents/vivado/test/PNU_CLK_DIV.v:1]
+	Parameter cnt_num bound to: 5000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PNU_CLK_DIV' (6#1) [C:/Users/tmdal/Documents/vivado/test/PNU_CLK_DIV.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_speed' [C:/Users/tmdal/Documents/vivado/test/clk_speed.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'clk_speed' (7#1) [C:/Users/tmdal/Documents/vivado/test/clk_speed.v:1]
+INFO: [Synth 8-6157] synthesizing module 'super_mario_music' [C:/Users/tmdal/Documents/vivado/test/super_mario_music.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'super_mario_music' (8#1) [C:/Users/tmdal/Documents/vivado/test/super_mario_music.v:2]
+INFO: [Synth 8-6157] synthesizing module 'start_LCD' [C:/Users/tmdal/Documents/vivado/test/start_LCD.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tmdal/Documents/vivado/test/start_LCD.v:105]
+INFO: [Synth 8-6155] done synthesizing module 'start_LCD' (9#1) [C:/Users/tmdal/Documents/vivado/test/start_LCD.v:1]
+INFO: [Synth 8-6157] synthesizing module 'array8_segment' [C:/Users/tmdal/Documents/vivado/test/array8_segment.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tmdal/Documents/vivado/test/array8_segment.v:163]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tmdal/Documents/vivado/test/array8_segment.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'array8_segment' (10#1) [C:/Users/tmdal/Documents/vivado/test/array8_segment.v:1]
+INFO: [Synth 8-6157] synthesizing module 'start_game' [C:/Users/tmdal/Documents/vivado/test/start_game.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'start_game' (11#1) [C:/Users/tmdal/Documents/vivado/test/start_game.v:1]
+INFO: [Synth 8-6157] synthesizing module 'lcd_write_object_char' [C:/Users/tmdal/Documents/vivado/test/lcd_write_object_char.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tmdal/Documents/vivado/test/lcd_write_object_char.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'lcd_write_object_char' (12#1) [C:/Users/tmdal/Documents/vivado/test/lcd_write_object_char.v:1]
+INFO: [Synth 8-6157] synthesizing module 'gamemover' [C:/Users/tmdal/Documents/vivado/test/gameover.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'gamemover' (13#1) [C:/Users/tmdal/Documents/vivado/test/gameover.v:1]
+INFO: [Synth 8-6157] synthesizing module 'toggle_keep' [C:/Users/tmdal/Documents/vivado/test/toggle_keep.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'toggle_keep' (14#1) [C:/Users/tmdal/Documents/vivado/test/toggle_keep.v:1]
+INFO: [Synth 8-6157] synthesizing module 'motor' [C:/Users/tmdal/Documents/vivado/test/motor.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/tmdal/Documents/vivado/test/motor.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'motor' (15#1) [C:/Users/tmdal/Documents/vivado/test/motor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'lcd_custom_object_init' [C:/Users/tmdal/Documents/vivado/test/lcd_custom_object_init.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/tmdal/Documents/vivado/test/lcd_custom_object_init.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'lcd_custom_object_init' (16#1) [C:/Users/tmdal/Documents/vivado/test/lcd_custom_object_init.v:1]
+INFO: [Synth 8-6157] synthesizing module 'lfsr_random' [C:/Users/tmdal/Documents/vivado/test/lfsr_random.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'lfsr_random' (17#1) [C:/Users/tmdal/Documents/vivado/test/lfsr_random.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'main_test' (18#1) [C:/Users/tmdal/Documents/vivado/test/test.v:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1027.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1027.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1027.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1027.125 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc]
+WARNING: [Vivado 12-584] No ports matched 'pin_name1'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pin_name1'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'print_e'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'print_e'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'next'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'next'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_LED'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'random'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'random'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hit_LED'. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/tmdal/Documents/vivado/test/test.srcs/constrs_1/new/test.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1088.711 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1088.711 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1088.711 ; gain = 61.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s75fgga484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1088.711 ; gain = 61.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1088.711 ; gain = 61.586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'lcd_write_object_char'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'lcd_custom_object_init'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE31 |                           000000 |                         00000000
+                iSTATE29 |                           000001 |                         00000001
+                iSTATE25 |                           000010 |                         00000010
+                iSTATE22 |                           000011 |                         00000011
+                 iSTATE7 |                           000100 |                         00000100
+                 iSTATE5 |                           000101 |                         00000101
+                iSTATE46 |                           000110 |                         10000010
+                iSTATE45 |                           000111 |                         10000011
+                iSTATE35 |                           001000 |                         10000100
+                iSTATE33 |                           001001 |                         10000101
+                iSTATE30 |                           001010 |                         10000110
+                iSTATE28 |                           001011 |                         10000111
+                iSTATE34 |                           001100 |                         10001000
+                iSTATE32 |                           001101 |                         10001001
+                iSTATE40 |                           001110 |                         11111111
+                 iSTATE9 |                           001111 |                         00110010
+                 iSTATE8 |                           010000 |                         00110011
+                  iSTATE |                           010001 |                         00110100
+                iSTATE49 |                           010010 |                         00110101
+                iSTATE48 |                           010011 |                         10111110
+                iSTATE47 |                           010100 |                         10111111
+                iSTATE43 |                           010101 |                         11000000
+                iSTATE42 |                           010110 |                         11000001
+                iSTATE39 |                           010111 |                         11000010
+                iSTATE37 |                           011000 |                         11000011
+                iSTATE24 |                           011001 |                         11000100
+                iSTATE20 |                           011010 |                         11000101
+                iSTATE21 |                           011011 |                         11001000
+                iSTATE18 |                           011100 |                         11001001
+                iSTATE14 |                           011101 |                         11001010
+                iSTATE12 |                           011110 |                         11001011
+                iSTATE44 |                           011111 |                         01111000
+                iSTATE41 |                           100000 |                         01111001
+                iSTATE38 |                           100001 |                         01111010
+                iSTATE36 |                           100010 |                         01111011
+                iSTATE23 |                           100011 |                         01111100
+                iSTATE19 |                           100100 |                         01111101
+                iSTATE15 |                           100101 |                         01111110
+                iSTATE13 |                           100110 |                         01111111
+                iSTATE11 |                           100111 |                         01100100
+                iSTATE10 |                           101000 |                         01100101
+                 iSTATE6 |                           101001 |                         01100110
+                 iSTATE4 |                           101010 |                         01100111
+                 iSTATE1 |                           101011 |                         10010110
+                 iSTATE0 |                           101100 |                         10010111
+                 iSTATE3 |                           101101 |                         10011000
+                 iSTATE2 |                           101110 |                         10011001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'lcd_write_object_char'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                             0000 |                             0000
+                 iSTATE3 |                             0001 |                             0001
+                 iSTATE1 |                             0010 |                             0010
+                  iSTATE |                             0011 |                             0011
+                 iSTATE0 |                             0100 |                             0100
+                 iSTATE9 |                             0101 |                             0101
+                 iSTATE7 |                             0110 |                             0110
+                 iSTATE6 |                             0111 |                             0111
+                 iSTATE8 |                             1000 |                             1000
+                 iSTATE5 |                             1001 |                             1001
+                 iSTATE2 |                             1010 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'lcd_custom_object_init'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1088.711 ; gain = 61.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 10    
+	   2 Input   20 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 2     
+	   2 Input   13 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 13    
+	   2 Input    3 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 11    
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	                8 Bit    Registers := 70    
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 26    
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 31    
++---Multipliers : 
+	               3x32  Multipliers := 1     
+	              16x32  Multipliers := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 19    
+	 310 Input   32 Bit        Muxes := 2     
+	  14 Input   32 Bit        Muxes := 2     
+	  10 Input   32 Bit        Muxes := 3     
+	   2 Input   20 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 15    
+	  13 Input   16 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 3     
+	  91 Input   13 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 10    
+	   8 Input    8 Bit        Muxes := 1     
+	  47 Input    8 Bit        Muxes := 3     
+	  11 Input    8 Bit        Muxes := 2     
+	  11 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 13    
+	   3 Input    7 Bit        Muxes := 1     
+	  47 Input    7 Bit        Muxes := 1     
+	  10 Input    7 Bit        Muxes := 1     
+	  47 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 10    
+	   2 Input    5 Bit        Muxes := 1     
+	   7 Input    5 Bit        Muxes := 5     
+	   6 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 224   
+	  10 Input    4 Bit        Muxes := 9     
+	  47 Input    4 Bit        Muxes := 1     
+	  11 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	  11 Input    3 Bit        Muxes := 1     
+	  10 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 37    
+	   4 Input    1 Bit        Muxes := 8     
+	  13 Input    1 Bit        Muxes := 7     
+	  10 Input    1 Bit        Muxes := 9     
+	  18 Input    1 Bit        Muxes := 1     
+	  47 Input    1 Bit        Muxes := 14    
+	   3 Input    1 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 1     
+	  11 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 140 (col length:80)
+BRAMs: 180 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:37 . Memory (MB): peak = 1088.711 ; gain = 61.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 1088.711 ; gain = 61.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:45 . Memory (MB): peak = 1088.711 ; gain = 61.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:46 . Memory (MB): peak = 1101.895 ; gain = 74.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     5|
+|2     |CARRY4 |   578|
+|3     |LUT1   |    93|
+|4     |LUT2   |   635|
+|5     |LUT3   |   854|
+|6     |LUT4   |   345|
+|7     |LUT5   |   410|
+|8     |LUT6   |   707|
+|9     |MUXF7  |    42|
+|10    |FDCE   |   631|
+|11    |FDPE   |    23|
+|12    |FDRE   |    24|
+|13    |IBUF   |     5|
+|14    |OBUF   |    48|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:48 . Memory (MB): peak = 1107.516 ; gain = 18.805
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1107.516 ; gain = 80.391
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1107.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 620 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1107.516 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 10 Warnings, 10 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:58 . Memory (MB): peak = 1107.516 ; gain = 80.391
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tmdal/Documents/vivado/test/test.runs/synth_1/main_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_test_utilization_synth.rpt -pb main_test_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 22 20:52:50 2024...

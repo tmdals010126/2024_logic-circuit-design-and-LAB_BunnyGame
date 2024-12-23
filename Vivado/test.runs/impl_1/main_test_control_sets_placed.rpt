@@ -1,0 +1,117 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Dec 22 20:53:40 2024
+| Host         : tmdals-LAPTOP running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_test_control_sets_placed.rpt
+| Design       : main_test
+| Device       : xc7s75
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    39 |
+|    Minimum number of control sets                        |    39 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   164 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    39 |
+| >= 0 to < 4        |     5 |
+| >= 4 to < 6        |     8 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     7 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    14 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |             230 |           76 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              22 |           12 |
+| Yes          | No                    | Yes                    |             430 |          151 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+----------------------------------------------+--------------------+------------------+----------------+--------------+
+|        Clock Signal       |                 Enable Signal                |  Set/Reset Signal  | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------------+----------------------------------------------+--------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG            | startBTN_IBUF                                | postition_rst_IBUF |                1 |              1 |         1.00 |
+|  SYNTHESIZED_WIRE_65_BUFG |                                              | postition_rst_IBUF |                1 |              1 |         1.00 |
+|  SYNTHESIZED_WIRE_65_BUFG |                                              |                    |                1 |              1 |         1.00 |
+|  b2v_inst8/CLK            |                                              |                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG            | b2v_inst10/life_0_i_1_n_0                    | postition_rst_IBUF |                2 |              3 |         1.50 |
+|  clk_IBUF_BUFG            | b2v_inst21/E[0]                              | postition_rst_IBUF |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG            | b2v_inst3/state[2]_i_1__0_n_0                | postition_rst_IBUF |                1 |              4 |         4.00 |
+|  SYNTHESIZED_WIRE_93_BUFG | b2v_inst4/pos[3]_i_1__0_n_0                  |                    |                1 |              4 |         4.00 |
+|  SYNTHESIZED_WIRE_65_BUFG | b2v_inst43/pos                               | postition_rst_IBUF |                3 |              4 |         1.33 |
+|  b2v_inst8/CLK            | b2v_inst28/pos[3]_i_1_n_0                    | postition_rst_IBUF |                2 |              4 |         2.00 |
+|  b2v_inst17/div_clk_BUFG  | b2v_inst8/FSM_sequential_state[3]_i_1__0_n_0 | postition_rst_IBUF |                1 |              4 |         4.00 |
+|  SYNTHESIZED_WIRE_65_BUFG | b2v_inst43/state[3]_i_1__0_n_0               | postition_rst_IBUF |                3 |              5 |         1.67 |
+|  b2v_inst8/CLK            | b2v_inst28/state[4]_i_1_n_0                  | postition_rst_IBUF |                2 |              5 |         2.50 |
+|  SYNTHESIZED_WIRE_93_BUFG | b2v_inst4/FSM_sequential_state[5]_i_1_n_0    | postition_rst_IBUF |                4 |              6 |         1.50 |
+|  b2v_inst17/div_clk_BUFG  | b2v_inst8/lcd_data[6]_i_1__2_n_0             | postition_rst_IBUF |                3 |              7 |         2.33 |
+|  clk_IBUF_BUFG            | b2v_inst3/state[3]                           | postition_rst_IBUF |                5 |              7 |         1.40 |
+|  SYNTHESIZED_WIRE_93_BUFG | b2v_inst4/pos[3]_i_1__0_n_0                  | postition_rst_IBUF |                4 |              7 |         1.75 |
+|  clk_IBUF_BUFG            | b2v_inst6/toggle_hit_reg[0]                  | postition_rst_IBUF |                5 |              8 |         1.60 |
+|  SYNTHESIZED_WIRE_93_BUFG | b2v_inst4/lcd_data[7]_i_1_n_0                | postition_rst_IBUF |                5 |              9 |         1.80 |
+|  SYNTHESIZED_WIRE_65_BUFG | b2v_inst43/lcd_count                         | postition_rst_IBUF |                3 |              9 |         3.00 |
+|  SYNTHESIZED_WIRE_65_BUFG | b2v_inst43/lcd_rs2_out                       |                    |                6 |              9 |         1.50 |
+|  b2v_inst8/CLK            | b2v_inst28/lcd_data[7]_i_1__1_n_0            |                    |                5 |              9 |         1.80 |
+|  b2v_inst8/CLK            | b2v_inst28/lcd_count[8]_i_1_n_0              | postition_rst_IBUF |                3 |              9 |         3.00 |
+|  b2v_inst17/div_clk_BUFG  |                                              | postition_rst_IBUF |                5 |              9 |         1.80 |
+|  b2v_inst17/div_clk_BUFG  | b2v_inst8/custom_char                        | postition_rst_IBUF |                4 |             10 |         2.50 |
+|  SYNTHESIZED_WIRE_27_BUFG | b2v_inst25/sel                               | postition_rst_IBUF |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG            |                                              | rst_IBUF           |                7 |             18 |         2.57 |
+|  clk_IBUF_BUFG            | b2v_inst6/E[0]                               | postition_rst_IBUF |               10 |             20 |         2.00 |
+|  SYNTHESIZED_WIRE_93_BUFG |                                              | postition_rst_IBUF |               10 |             28 |         2.80 |
+|  SYNTHESIZED_WIRE_65_BUFG | b2v_inst43/counter[31]_i_1__0_n_0            | postition_rst_IBUF |                6 |             32 |         5.33 |
+|  SYNTHESIZED_WIRE_27_BUFG | b2v_inst25/counter                           | postition_rst_IBUF |               12 |             32 |         2.67 |
+|  SYNTHESIZED_WIRE_65_BUFG | b2v_inst43/duration_counter                  | postition_rst_IBUF |                7 |             32 |         4.57 |
+|  clk_IBUF_BUFG            |                                              | postition_rst_IBUF |               16 |             43 |         2.69 |
+|  SYNTHESIZED_WIRE_65_BUFG | b2v_inst43/note_index_rep[3]_i_1_n_0         | postition_rst_IBUF |               14 |             44 |         3.14 |
+|  clk_IBUF_BUFG            | b2v_inst3/com0                               | postition_rst_IBUF |               12 |             47 |         3.92 |
+|  SYNTHESIZED_WIRE_27_BUFG | b2v_inst25/note_index_reg_rep[8]_i_1_n_0     | postition_rst_IBUF |               19 |             50 |         2.63 |
+|  SYNTHESIZED_WIRE_22_BUFG | b2v_inst21/E[0]                              | postition_rst_IBUF |               14 |             51 |         3.64 |
+|  SYNTHESIZED_WIRE_27_BUFG |                                              | postition_rst_IBUF |               19 |             65 |         3.42 |
+|  SYNTHESIZED_WIRE_22_BUFG |                                              | postition_rst_IBUF |               18 |             66 |         3.67 |
++---------------------------+----------------------------------------------+--------------------+------------------+----------------+--------------+
+
+
